@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+  margin: 0 0;
+}
+
+
+
+:root {
+  --main-nutmeg: hsl(14, 45%, 36%);
+  --main-dark-raspberry: hsl(332, 51%, 32%);
+  --main-white: hsl(0, 0%, 100%);
+  --main-rose-white: hsl(330, 100%, 98%);
+  --main-eggshell: hsl(30, 54%, 90%);
+  --main-light Grey: hsl(30, 18%, 87%);
+  --main-wenge Brown: hsl(30, 10%, 34%);
+  --main-dark-charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-eggshell);
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+overflow-x: hidden;}
+
+.main-container {
+  width: 60%;
+  height: 80%;
+  background-color: var(--main-white);
+  border-radius: 20px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#omelette{border-radius: 20px;}
+
+.title{margin-bottom: -20px;}
+
+.preparation-time-container{
+  width: 90%;
+  height: fit-content;
+  background-color: var(--main-rose-white);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.subtitle{color: var(--main-dark-raspberry);
+margin-left: 20px;
+margin-bottom: -5px;}
+
+.Ingredients-container{margin-bottom: 40px;
+margin-top: 20px;}
+
+ol{margin-bottom: 40px;}
+
+li{padding-top: 10px;
+padding-bottom: 5px;
+padding-left: 10px;}
+
+.bold{font-weight: bold;}
+
+.red-titles{color: var(--main-nutmeg);}
+
+.nutrition, .Instructions{margin-top: 40px;}
+
+.grid-container{
+  width: 90%;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+hr{height: 0px;
+width: 100%;
+border-color: rgb(239, 239, 239);
+margin-top: -10px;
+margin-bottom: -10px;
+opacity: 40%;
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
