@@ -22,8 +22,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: (https://github.com/cristianccgg/Recipe-web-page-exercise.git)
-- Live Site URL: (https://cristianccgg.github.io/Recipe-web-page-exercise/))
+- Solution URL: https://github.com/cristianccgg/Recipe-web-page-exercise.git
+- Live Site URL: https://cristianccgg.github.io/Recipe-web-page-exercise
 
 ## My process
 
@@ -37,6 +37,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/cristianccgg)
+- Frontend Mentor - [@cristianccgg](https://www.frontendmentor.io/profile/cristianccgg)
 
 # Recipe-web-page
