@@ -1,6 +1,7 @@
-html {
+html, * {
   box-sizing: border-box;
-  margin: 0 0;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -24,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-overflow-x: hidden;}
+  overflow-x: hidden;}
 
 .main-container {
   width: 60%;
@@ -42,37 +43,50 @@ overflow-x: hidden;}
 
 #omelette{border-radius: 20px;}
 
-.title{margin-bottom: -20px;}
+.title{margin-bottom: 20px;
+margin-top:20px;}
 
 .preparation-time-container{
-  width: 90%;
+  width: 100%;
   height: fit-content;
   background-color: var(--main-rose-white);
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-top: 15px;
+  justify-content: flex-start;
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .subtitle{color: var(--main-dark-raspberry);
-margin-left: 20px;
-margin-bottom: -5px;}
+margin-top: 20px;
+margin-left: -15px;
+font-size: 20px;}
+
 
 .Ingredients-container{margin-bottom: 40px;
-margin-top: 20px;}
+margin-top: 20px;
+margin-left: 30px;}
+
+
 
 ol{margin-bottom: 40px;}
 
 li{padding-top: 10px;
 padding-bottom: 5px;
-padding-left: 10px;}
+padding-left: 10px;
+margin-left: 25px;
+margin-top: 15px;
+margin-right: 20px;}
 
 .bold{font-weight: bold;}
 
 .red-titles{color: var(--main-nutmeg);}
 
-.nutrition, .Instructions{margin-top: 40px;}
+.nutrition, .Instructions, .Ingresients{margin-top: 40px;}
 
 .grid-container{
   width: 90%;
@@ -82,6 +96,7 @@ padding-left: 10px;}
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.table-text{margin-top: 20px;}
 
 hr{height: 0px;
 width: 100%;
@@ -89,6 +104,18 @@ border-color: rgb(239, 239, 239);
 margin-top: -10px;
 margin-bottom: -10px;
 opacity: 40%;
+}
+
+@media screen and (max-width:850px){.main-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  border-radius: 0;
+}
+}
 
 
  
